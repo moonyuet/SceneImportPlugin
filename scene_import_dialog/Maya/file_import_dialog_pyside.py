@@ -61,7 +61,7 @@ class FileManagementDialog(QtWidgets.QDialog):
         self.ref_filepath_btn.setToolTip("Select File")
 
         self.help_caption = QtWidgets.QLabel()
-        self.help_caption.setText('''<a href='http://kaylaman.com'>Help</a>''')
+        self.help_caption.setText('''<a href='https://github.com/moonyuet/SceneImportPlugin'>Help</a>''')
         self.help_caption.setOpenExternalLinks(True)
 
         self.apply_btn = QtWidgets.QPushButton("Apply")
