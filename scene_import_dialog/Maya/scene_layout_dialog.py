@@ -2,8 +2,8 @@ import sys
 import maya.cmds as cmds
 import mtoa.utils as utils
 
-path = r"C:\Users\Kayla\Desktop\scene_import_dialog\Maya"
-sys.path.append(path)
+##path = r"C:\Users\Kayla\Desktop\scene_import_dialog\Maya"
+##sys.path.append(path)
 scene_path = [""]
 
 
