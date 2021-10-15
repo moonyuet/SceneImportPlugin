@@ -23,7 +23,7 @@ class AssetManagementToolkitPanel(bpy.types.Panel):
         row.operator("importcamerascene.operator")
         
         row = layout.row()
-        row.operator("importlightscene.operator")
+        row.operator("importscene.operator")
 
 class DeleteTemplateScene(bpy.types.Operator):
     bl_idname = "delete_template_scene.operator"
@@ -93,8 +93,8 @@ class CameraTemplate(bpy.types.Operator, ImportHelper):
         return {"FINISHED"}
 
 class LightTemplate(bpy.types.Operator,ImportHelper):
-    bl_idname = "importlightscene.operator"
-    bl_label = "Import Light Scene"
+    bl_idname = "importscene.operator"
+    bl_label = "Import Scene"
 
     filename_extension = "*blend;"
     filter: StringProperty(
